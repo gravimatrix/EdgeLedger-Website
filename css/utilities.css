@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Dosis', sans-serif;
     box-sizing: border-box;
 }
 
@@ -9,5 +9,22 @@
     color: #93cb52;
 }
 
+.text-secondary{
+    color: #6a9439;
+}
+
+.btn-primary{
+    padding: 10px 20px;
+    background: #6a9439;
+}
+
+.btn-primary:hover{
+    background: #93cb52;
+}
+
+.btn-secondary{
+    padding: 10px 20px;
+    background: #6a9439;
+}
 
 
