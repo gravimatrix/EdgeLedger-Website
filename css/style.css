@@ -1,60 +1,138 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .navbar {
-    color: #fff;
-    height: 12vh;
-    padding: 0 0.7rem;
-    background: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 0.8;
+  position: fixed;
+  top: 0;
+  color: #fff;
+  width: 100vw;
+  height: 12vh;
+  padding: 0 30px;
+  margin-right: 10px;
+  background: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
 }
 
-.navbar ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: #fff;
-    padding: 0px 10px;
-    font-size: 1.2rem;
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 1.2rem;
 }
 
-
-.navbar a:hover{
-    border-bottom: #93cb52 2px solid;
+.navbar a:hover {
+  border-bottom: #93cb52 2px solid;
 }
 
-.hero{
-    background: url("../images/home/showcase.jpg") no-repeat center center/cover;
-    height: 100vh;
-    position: relative;
-    color: #fff;
+.hero {
+  background: url("../images/home/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 85%;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
 }
 
-.content h1{
-    padding-bottom: 2rem;
-    font-size: 3rem;
-    color: #F0F3F4;
+.content h1 {
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  color: #f0f3f4;
 }
 
-.content h3{
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
-    color: #F0F3F4;
+.content h3 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #f0f3f4;
 }
 
-.content a{
-    text-decoration: none;
-    color: #fff;
+.content a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero * {
+  z-index: 10;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  height: 40vh;
+}
+
+.banking {
+  flex: 1;
+  text-align: center;
+}
+
+.manager {
+  flex: 1;
+  text-align: center;
+}
+
+.tax {
+  flex: 1;
+  text-align: center;
+}
+
+.banking i {
+  margin-bottom: 20px;
+  background: #28a745;
+  padding: 1rem;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.manager i {
+  margin-bottom: 20px;
+  background: #28a745;
+  padding: 1rem;
+  border-radius: 100%;
+  color: #fff;
+}
+.tax i {
+  margin-bottom: 20px;
+  background: #28a745;
+  padding: 1rem;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.banking h1 {
+  margin-bottom: 20px;
+}
+
+.manager h1 {
+  margin-bottom: 20px;
+}
+
+.tax h1 {
+  margin-bottom: 20px;
 }
