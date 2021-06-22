@@ -1,0 +1,55 @@
+.navbar {
+  position: static;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.navbar ul {
+  display: block;
+}
+
+.navbar li {
+  border-bottom: #444 solid 1px;
+  padding: 10px 0;
+}
+
+.content {
+  height: 50%;
+}
+
+.content h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.content h3 {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.icon-container {
+  height: 50vh;
+}
+
+#solution {
+  height: 80vh;
+}
+
+#solution-content h3 {
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+#solution-content h1 {
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#blog {
+  height: 80vh;
+}
+
+#contact {
+  height: 80vh;
+}
