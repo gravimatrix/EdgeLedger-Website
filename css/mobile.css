@@ -33,7 +33,12 @@
 }
 
 #solution {
-  height: 80vh;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#solution-content {
+  align-items: center;
 }
 
 #solution-content h3 {
@@ -46,8 +51,28 @@
   font-size: 1.5rem;
 }
 
+#cases {
+  padding: 20px 0px;
+}
+
+#cases h4 {
+  padding-bottom: 10px;
+}
+
+#cases h1 {
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
 #blog {
-  height: 80vh;
+  height: 90vh;
+  flex-direction: column;
+}
+
+#blog-content-column-flex {
+  padding: 0 10px;
+  align-items: center;
+  text-align: center;
 }
 
 #contact {

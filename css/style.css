@@ -332,8 +332,13 @@ body {
   padding: 10px 20px;
 }
 
+#member-1 h3 {
+  padding-bottom: 10px;
+}
+
 #member-1 h4 {
   padding-bottom: 10px;
+  color: rgba(70, 66, 66, 0.836);
 }
 
 #member-2 {
@@ -344,8 +349,13 @@ body {
   flex: 1;
 }
 
+#member-2 h3 {
+  padding-bottom: 10px;
+}
+
 #member-2 h4 {
   padding-bottom: 10px;
+  color: rgba(70, 66, 66, 0.836);
 }
 
 #member-2 img {
@@ -361,8 +371,13 @@ body {
   flex: 1;
 }
 
+#member-3 h3 {
+  padding-bottom: 10px;
+}
+
 #member-3 h4 {
   padding-bottom: 10px;
+  color: rgba(70, 66, 66, 0.836);
 }
 
 #member-3 img {
